@@ -9,3 +9,5 @@ You're riding Ruby on Rails, with Jekyll, the asset pipeline, Markdown, Bootstra
 ```ruby
 puts 'hello, world!'
 ```
+
+![Rails]({% asset_path rails.png %})
