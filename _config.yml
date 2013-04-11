@@ -1,0 +1,7 @@
+# Jekyll configuration
+
+source: app/static
+destination: public
+
+markdown: redcarpet
+pygments: true
