@@ -1,6 +1,6 @@
 # The Strange Case of Dr Jekyll and Mr Rails
 
-I like Rails. And I increasingly _really_ like Jekyll. The "why" of particular mashup deserves a much more thorough writeup. For now, here's the "what."
+I like Rails. And I increasingly _really_ like Jekyll. The "why" of this particular mashup deserves a much more thorough writeup. For now, here's the "what."
 
 ## What is this thing?
 
@@ -24,14 +24,14 @@ Finally, I straight-up _.gitignore_ the `public` directory. I then wire up a sim
 
 ### 4. A Bit of Exposition
 
-A bit more exposition to come. For now, feedback is welcome!
+This app is a bit of exploration and experimentation. There is more exposition to come based on what I learn in here. Hopefully the result will describe a standard, de facto way for integrating Jekyll into a Rails app.
 
-In particular, I want to talk about:
+For now, feedback is welcome! In particular, I want to talk about:
 
-- **Conventions and configurations.** Can some of this be done with less configuration?
-- **Hard-coded assumptions.** I'm looking at the hardcoded `/assets` in my `asset_path` tag, and the (lack of) options in the `jekyll:build` task. Can these be made more flexible and robust?
-- **Future proofiness:** do you see any smells?
-- **Who cares?** Should I blog about this thing?
+- **Who cares?** Should I bother blogging about this thing? Is it useful? Did someone else already do it and my Google-fu failed me?
+- **Conventions and configurations.** Can some of this be done with less configuration? May be a tall order given the amount of configuration in here, but I'm always up for improvement.
+- **Hard-coded assumptions.** In particular, I'm looking at the hardcoded `/assets` in my `asset_path` tag, and the (lack of) options in the `jekyll:build` task. Mostly late evening laziness on my part. Can these be made more flexible and robust?
+- **Future proofiness.** In future versions of Rails and Jekyll, where will this thing break? Is there some better encapsulation to be had in here?
 
 Hit me up on the Twitters: [@nz_](http://twitter.com/nz_)
 
