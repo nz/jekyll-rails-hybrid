@@ -73,6 +73,7 @@ GEM
       syntax (>= 1.0.0)
     mime-types (1.22)
     multi_json (1.7.2)
+    pg (0.15.1)
     polyglot (0.3.3)
     posix-spawn (0.3.6)
     pygments.rb (0.4.2)
@@ -135,6 +136,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jekyll (~> 1.0.0.beta)
   jquery-rails
+  pg
   rails (= 3.2.13)
   redcarpet
   sass-rails (~> 3.2.3)
