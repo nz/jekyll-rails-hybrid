@@ -35,6 +35,25 @@ For now, feedback is welcome! In particular, I want to talk about:
 
 Hit me up on the Twitters: [@nz_](http://twitter.com/nz_)
 
+## On Heroku
+
+If you're hosting on Heroku you won't be able to lean on the `assets:precompile` dependency for the jekyll 
+task so you should delete the `jekyll.rake` task file and, instead, precompile your assets locally and check 
+them into your repo. Otherwise the files would still be compiled on deploy, but would disappear as files not
+checked into git are eventually deleted.
+
+### A note about local compilation
+
+When running `rake assets:precompile` it will do so within your *production* environment. Remember that assets
+are given a different digest per environment. If you compile jekyll files without `RAILS_ENV=production` the
+asset_path plugin will instead be run in a `development` context. As a result the digests will not match. The lesson?
+Run both with RAILS_ENV set as production.
+
+```
+rake assets:precompile # RAILS_ENV=production is optional here
+RAILS_ENV=production jekyll build
+```
+
 ## Try it out
 
 ```
