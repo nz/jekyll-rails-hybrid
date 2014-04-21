@@ -2,6 +2,8 @@
 
 I like Rails. And I increasingly _really_ like Jekyll. The "why" of this particular mashup deserves a much more thorough writeup. For now, here's the "what."
 
+_(Up-front disclosure: I don't use this in production [anymore]; see the end of this readme for alternate takes on a similar theme.)_
+
 ## What is this thing?
 
 ### 1. A Simple Rails App
@@ -65,3 +67,9 @@ rails server
 ```
 
 Enjoy!
+
+# Other Approaches
+
+- See @metaskills tackle this challenge from a different direction, in his blog article, [Jekyll-Style Blogging On Rails](https://homemarks.com/blog/2014-04-19-jekyll-style-blogging-on-rails)
+
+Apparently this repo ranks well on Google for "jekyll rails" — if you have other links to similar ideas, I'll happily add them here, just send me a pull request.
