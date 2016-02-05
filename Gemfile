@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.13'
 
 group :production do
-  gem 'pg'
+  # gem 'pg', '~>0.15.1'
 end
 
 group :development, :test do
@@ -18,5 +18,5 @@ end
 
 gem 'jquery-rails'
 
-gem 'jekyll', '~>1.0.0.beta'
+gem 'jekyll', '~>3.1.1'
 gem 'redcarpet'

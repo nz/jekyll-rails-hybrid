@@ -4,4 +4,4 @@ source: app/static
 destination: public
 
 markdown: redcarpet
-pygments: true
+highlighter: rouge
